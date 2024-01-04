@@ -13,7 +13,7 @@ import java.time.LocalDateTime;
 @AllArgsConstructor
 @SuperBuilder
 public class AccountOpenedEvent extends BaseEvent {
-    private String account;
+    private String accountHolder;
     private AccountType accountType;
     private LocalDateTime createdDate;
     private double openingBalance;
